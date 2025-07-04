@@ -1,9 +1,18 @@
-
+import Navbar from "./components/Navbar"
+import HomePage from "./pages/HomePage"
+import Footer from "./components/Footer"
 function App() {
 
-  return <div className="text-4xl text-red-400 font-bold">
-    <h1>hello world</h1>
+  return (
+    <div>
+      <Navbar />
+  
+      <HomePage />
+  
+      <Footer />
     </div>
+  )
+  
 }
 
 export default App
