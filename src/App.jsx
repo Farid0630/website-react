@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar"
 import HomePage from "./pages/HomePage"
-import Footer from "./components/Footer"
+// import Footer from "./components/Footer"
 function App() {
 
   return (
@@ -9,7 +9,7 @@ function App() {
   
       <HomePage />
   
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
   
